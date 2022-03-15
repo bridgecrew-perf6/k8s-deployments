@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demowebapp
+  namespace: demo-qa-ns
+data:
+   sample.conf: |
+
+            { "sample": {
+                 "db": "awesome.demo.com",
+                 "user": "master"
+              }
+            }
+
